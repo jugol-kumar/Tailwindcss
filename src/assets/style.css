@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+   .landing-one {
+      background: linear-gradient(to bottom, white 0%, white 60%, theme(colors.violet.500) 60%, theme(colors.violet.500) 100%);
+   }
+   @media screen(lg) {
+      .landing-one {
+         background: linear-gradient(to right, white 0%, white 60%, theme(colors.violet.500) 60%, theme(colors.violet.500) 100%);
+      }
+   }
+
+   .btn-primary {
+      @apply py-1 px-5 bg-blue-500 text-white font-semibold rounded-md shadow-md hover:bg-blue-700 focus:outline-none
+       focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+   }
+   .form-control {
+      @apply border w-full h-5 px-3 py-5 mt-2 focus:ring-1 focus:ring-indigo-600 focus:outline-none hover:outline-none rounded-md;
+   }
+   .video{
+      @apply bg-slate-200 shadow-md rounded-sm grid place-items-center;
+   }
+   .search-box{
+      @apply w-full py-3 px-2 border rounded-md mb-5 hover:outline-none focus:outline-none focus:ring-purple-500 focus:ring-2;
+   }
+}
+
+
