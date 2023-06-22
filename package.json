@@ -8,8 +8,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vueup/vue-quill": "^1.2.0",
+    "axios": "^1.4.0",
+    "intl-tel-input": "^18.1.6",
+    "oh-vue-icons": "^1.0.0-rc3",
     "pinia": "^2.0.35",
+    "swiper": "^9.4.1",
     "vue": "^3.2.47",
+    "vue-feather": "^2.0.0",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {

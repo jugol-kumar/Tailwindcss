@@ -20,6 +20,12 @@ module.exports = {
     extend: {
       fontFamily:{
         'sans': ["Fira Sans", ...defaultTheme.fontFamily.sans]
+      },
+      spacing:{
+        18: "4.5rem",
+      },
+      animation: {
+        'spin-slow': 'spin 8s linear infinite',
       }
     },
   },

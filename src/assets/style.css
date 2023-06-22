@@ -28,6 +28,35 @@
    .search-box{
       @apply w-full py-3 px-2 border rounded-md mb-5 hover:outline-none focus:outline-none focus:ring-purple-500 focus:ring-2;
    }
+
+   .backdrop-style{
+      @apply bg-[#00000066] rounded-xl border border-[#4e4e4e54] backdrop-blur-xl;
+   }
+   
+   .min-gradient-bg{
+      @apply bg-gradient-to-r from-purple-400 to-orange-600;
+   }
+
+   .text-gradient{
+      @apply text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-orange-600;
+   }
+   .btn-prot-main{
+      @apply px-12 py-2 hover:bg-gradient-to-l duration-300 bg-gradient-to-r from-purple-400 to-orange-600 text-gray-100 rounded-full;
+   }
+   .aboutImage::after{
+      @apply content-[''] w-full h-full bg-gradient-to-tr to-orange-200 from-purple-300 left-0 top-0 rounded-xl absolute rotate-12 -z-10 duration-300
+   }
+
+
+   @keyframes progressAnimation {
+      0% { width: 0; }
+      100% { width: 100%; }
+   }
+    
+   .animate-progress {
+      animation: progressAnimation 3s linear;
+   }
+   
 }
 
 

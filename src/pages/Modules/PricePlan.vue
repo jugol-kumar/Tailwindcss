@@ -7,8 +7,6 @@
 <template>
     <div class="bg-slate-100 dark:bg-slate-900">
         <div class="container">
-
-        
             <div class="pt-10">
                 <RouterLink to="/" class="bg-gray-300 text-white w-16 h-16 rounded-full flex items-center justify-center">
                     <IconHome class="cursor-pointer text-white"/>
